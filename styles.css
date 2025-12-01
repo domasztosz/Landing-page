@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(11, 11, 87);
+    color: white;
+    padding: 20px;
+    margin: 0;
+
+}
+
+.h-lst{
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.block-one{
+    display: flex;
+    padding: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
