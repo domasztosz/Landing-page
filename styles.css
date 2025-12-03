@@ -35,13 +35,14 @@
                 list-style: none;
             }
 
+
+
 .mod-one{
     display: flex;
     padding: 18px;
     padding-top: 110px;
     padding-bottom: 125px;
 }
-
     .l-mod-one{
         display: flex;
         width: 50%;
@@ -74,8 +75,106 @@
         padding-right: 200px;
     }
 
-.mod-two{
+
+
+/* Mod-two */
+    .title{
+        text-align: center;
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 900;
+        margin: 40px;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+        gap: 56px;
+        margin-bottom: 100px;
+    }
+        .one, .two, .three, .four{
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 160px;
+        }
+
+        .negyz{
+            width: 160px;
+            height: 160px;
+            border: #3882F6 solid;
+            border-color: #3882F6;
+            border-width: 4px;
+            border-radius: 15%;
+            margin-bottom: 8px;
+        }
+        .text{
+            text-align: center;
+        }
+
+
+
+.mod-three{
     display: flex;
-    flex-direction: column;
-    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+    .text-box{
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 300;
+        margin: 100px 325px 75px 325px;
+    }
+        .smol{
+            text-align: end;
+            font-size: 24px;
+            font-weight: 900;
+        }
+
+.mod-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        .blob{
+            width: 1000px;
+            height: 150px;
+            background-color: #3882F6;
+            margin: 80px 0;
+            border: #3882F6 solid;
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .call{
+            font-size: 24px;
+            font-weight: 800;
+        }
+        .yap{
+            font-size: 18px;
+            font-weight: 300;
+        }
+
+        .call,.yap{
+            color: #F9FAF8;
+        }
+        .gomb-two{
+            border: 2px solid #F9FAF8;
+            background-color: #3882F6;
+            width: 120px;
+            height: 35px;
+            color: #F9FAF8;
+            border-radius: 5px;
+        }
+.footer{
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tm{
+    font-size: 20px;
+    color: #F9FAF8;
 }
